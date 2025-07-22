@@ -15,6 +15,8 @@ And a fully animated lip-synced video using SadTalker.
 
 It enables teachers, students, and content creators to generate video lessons quickly and easily — no camera, mic, or editing software required.
 
+
+
 🎯 Objective
 To design a fully AI-powered pipeline that:
 
@@ -26,12 +28,16 @@ Simplifies content creation for digital learning platforms.
 
 This tool serves as an accessible, low-cost alternative to traditional educational video production.
 
+
+
 ⚙️ Key Features
 ✅ GPT-Neo (EleutherAI/gpt-neo-1.3B) – Generates detailed explanations for any input topic
 ✅ gTTS – Converts the generated script into natural-sounding speech
 ✅ Stable Diffusion – Creates a high-quality avatar based on a prompt
 ✅ SadTalker – Lip-syncs the avatar to the audio for a dynamic talking-head video
 ✅ 15-second video cap to ensure smooth rendering and performance in demos
+
+
 
 🚀 Use Cases
 📚 EdTech Content: Auto-generate explainers or revision videos for any subject
@@ -44,6 +50,8 @@ This tool serves as an accessible, low-cost alternative to traditional education
 
 🌐 Multilingual Projects: Translate script + voice using gTTS options
 
+
+
 🛠 Technologies Used
 Tech	Purpose
 GPT-Neo	Language generation
@@ -52,6 +60,8 @@ Stable Diffusion	Avatar generation
 SadTalker	Video synthesis & lip syncing
 PyTorch	ML model execution
 Google Colab	GPU-powered runtime
+
+
 
 📊 Output
 After providing a topic, the pipeline generates:
@@ -64,12 +74,16 @@ avatar.jpg – Generated avatar image
 
 avatar##audio_enhanced.mp4 – Final talking-head video
 
+
+
 ⚠️ Notes
 Works best in Google Colab with GPU
 
 SadTalker + Stable Diffusion requires significant VRAM (>= 8GB recommended)
 
 Audio is trimmed to 15 seconds for faster inference and demo scope
+
+
 
 📄 License
 MIT License – Free for academic and non-commercial use.
